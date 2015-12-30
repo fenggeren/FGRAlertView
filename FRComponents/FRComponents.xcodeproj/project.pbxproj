@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2888DD971C32CF0200E7D3EF /* FGRAlertView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2888DD961C32CF0200E7D3EF /* FGRAlertView.bundle */; };
+		2888DD9A1C34110A00E7D3EF /* FGRAutoHideShowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2888DD991C34110A00E7D3EF /* FGRAutoHideShowController.swift */; };
 		28DCEC0C1C2C2F2F007276E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DCEC0B1C2C2F2F007276E8 /* AppDelegate.swift */; };
 		28DCEC0E1C2C2F2F007276E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DCEC0D1C2C2F2F007276E8 /* ViewController.swift */; };
 		28DCEC111C2C2F2F007276E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28DCEC0F1C2C2F2F007276E8 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		2888DD961C32CF0200E7D3EF /* FGRAlertView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FGRAlertView.bundle; sourceTree = "<group>"; };
+		2888DD991C34110A00E7D3EF /* FGRAutoHideShowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FGRAutoHideShowController.swift; sourceTree = "<group>"; };
 		28DCEC081C2C2F2F007276E8 /* FRComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FRComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28DCEC0B1C2C2F2F007276E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28DCEC0D1C2C2F2F007276E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +50,14 @@
 			name = FGRAlertView;
 			sourceTree = "<group>";
 		};
+		2888DD981C34104A00E7D3EF /* ScrollAutoShowHide */ = {
+			isa = PBXGroup;
+			children = (
+				2888DD991C34110A00E7D3EF /* FGRAutoHideShowController.swift */,
+			);
+			name = ScrollAutoShowHide;
+			sourceTree = "<group>";
+		};
 		28DCEBFF1C2C2F2F007276E8 = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +77,7 @@
 		28DCEC0A1C2C2F2F007276E8 /* FRComponents */ = {
 			isa = PBXGroup;
 			children = (
+				2888DD981C34104A00E7D3EF /* ScrollAutoShowHide */,
 				2888DD951C32CED800E7D3EF /* FGRAlertView */,
 				28DCEC0B1C2C2F2F007276E8 /* AppDelegate.swift */,
 				28DCEC0D1C2C2F2F007276E8 /* ViewController.swift */,
@@ -152,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28DCEC1E1C2C2FCB007276E8 /* FGRAlertView.swift in Sources */,
+				2888DD9A1C34110A00E7D3EF /* FGRAutoHideShowController.swift in Sources */,
 				28DCEC0E1C2C2F2F007276E8 /* ViewController.swift in Sources */,
 				28DCEC0C1C2C2F2F007276E8 /* AppDelegate.swift in Sources */,
 			);

@@ -17,11 +17,16 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func goHideShow() {
+        navigationController?.pushViewController(FGRAutoHideShowController(), animated: true)
+    }
+    
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-
-
+        
     }
 }
+
+
 
 
 extension ViewController {
